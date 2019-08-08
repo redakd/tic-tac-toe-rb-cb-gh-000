@@ -49,6 +49,7 @@ def turn(board)
 
   numberconv = input_to_index(number)
   while !valid_move?(board, numberconv)
+      puts "There was an error, please make sure to put number between 1-9 and the place is shulde be empty"
       number = gets
       numberconv = input_to_index(number)
   end

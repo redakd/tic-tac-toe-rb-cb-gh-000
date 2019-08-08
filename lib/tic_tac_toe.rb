@@ -49,7 +49,7 @@ def turn(board)
 
   numberconv = input_to_index(number)
   while !valid_move?(board, numberconv)
-      number = gets 
+      number = gets
       numberconv = input_to_index(number)
   end
   player = current_player(board)

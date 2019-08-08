@@ -65,6 +65,7 @@ def turn_count(board)
     if board[i] == "X" or board[i] == "O"
       count += 1
     end
+    i += 1
   end
   return count
 end

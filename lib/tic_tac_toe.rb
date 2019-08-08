@@ -48,9 +48,8 @@ def turn(board)
   number = gets
 
   numberconv = input_to_index(number)
-  puts numberconv
-  while valid_move?(board, numberconv)
-
+  while valid_move?(board, numberconv) 
+    puts 22
     player = current_player(board)
     move(board, numberconv, player)
     display_board(board)
